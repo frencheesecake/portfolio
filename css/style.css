@@ -12,6 +12,28 @@ body {
   max-width: 1440px;
 }
 
+.list-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.list-links .li-margins {
+  margin: 20px 20px 0 0;
+}
+.list-links a {
+  color: #2d2d2d;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.page-links {
+  margin: 0 0 80px 0;
+}
+
 #cursor {
   pointer-events: none;
   width: 10px;
@@ -24,18 +46,18 @@ body {
   transition-timing-function: ease-out;
 }
 
-#back-page {
+.back-page {
   margin-top: 50px;
 }
-#back-page img {
-  rotate: -135deg;
-}
-#back-page a {
+.back-page a {
   margin-left: 10px;
   text-decoration: none;
   color: #2d2d2d;
   font-size: 26px;
   font-weight: 500;
+}
+.back-page a img {
+  rotate: -135deg;
 }
 
 section {
@@ -71,6 +93,7 @@ section {
   font-size: 27px;
   font-weight: 500;
   line-height: 175%;
+  margin-bottom: 28px;
 }
 
 .card .thumbnail {
@@ -129,23 +152,6 @@ section {
   font-size: 24px;
   font-weight: 500;
   line-height: 175%;
-}
-.contact ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 50px 0;
-}
-.contact ul li {
-  margin: 20px 20px 0 0;
-}
-.contact a {
-  color: #2d2d2d;
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 500;
 }
 
 .footer {

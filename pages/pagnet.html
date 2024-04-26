@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chezka</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Realtor</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+    .sticky-title {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 50px;
+    }
+    </style>
 </head>
 <body>
     <div id="cursor"></div>
 
+    <section class="back-page">
+        <a href="javascript:history.back()">
+            <img src="../media/arrow.png">
+            Back
+        </a>
+    </section>
+
     <section class="row hero">
         <div class="col">
             <div class="hero-title">
-                <h1>👋 Hi, I'm Chezka</h1>
+                <h1>Pagn.net</h1>
                 <!-- <svg class="handwritten" viewBox="0 0 175 82" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M36.4234 15.9626C36.4797 13.1194 36.1055 10.1988 36.0094 7.34507C35.9118 4.44871 35.5826 1.68887 31.934 2.78111C26.9176 4.28283 22.8695 9.13066 20.7696 13.6902C16.9477 21.9887 15.3351 31.8597 15.4357 40.9495C15.509 47.5693 17.1739 54.9889 25.1719 54.6981C34.6674 54.3527 39.9066 45.6769 44.6557 38.7758" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round"/>
                     <path d="M68.0672 4.94207C67.0498 6.60391 66.6767 9.84158 66.226 11.445C62.8668 23.3932 58.5674 35.1026 55.8448 47.2151C55.8227 47.3133 54.6103 51.1245 54.9166 51.5551C55.9153 52.9585 56.2121 48.3554 56.6769 46.6968C57.4081 44.0877 57.9113 40.9516 59.6163 38.7454C60.8986 37.0863 66.2267 33.318 67.9053 36.4896C69.6789 39.8406 66.6988 45.3543 69.8881 48.196C74.4394 52.2515 80.0248 46.5673 82.6661 43.1984C83.5158 42.1147 90.6387 28.8844 86.9766 28.3889C85.6483 28.2091 84.1222 30.2955 83.5458 31.1121C81.329 34.2529 80.1388 38.2437 80.6664 42.097C81.3247 46.9052 86.2502 49.6319 90.4456 46.701C93.1733 44.7956 95.1646 41.6248 97.1504 39.0474C99.2239 36.3562 101.705 32.0964 105.035 30.7024C108.976 29.0533 105.56 40.6843 105.053 41.6936C104.01 43.7696 102.594 45.7078 100.924 47.3205C100.898 47.3451 97.6134 50.0798 98.7605 48.4914C101.433 44.7913 106.503 41.3784 111.13 41.0149C116.964 40.5565 116.158 47.9339 114.284 51.31C110.332 58.4266 103.157 67.1283 95.1613 69.7356C92.1855 70.706 89.7081 69.8827 91.4201 66.9918" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round"/>
@@ -23,138 +38,35 @@
             </div>
         </div>
         <div class="col">
-            <p class="hero-txt">Illustrator turned UI/UX specialist / web & mobile app developer based in PH</p>
+            <p class="hero-txt">A platform for artists that fosters authentic interaction without conventional metrics like likes and views, focusing on genuine appreciation, collaboration, and community support.</p>
+            <div class="chips">
+                <div class="chip">
+                    <span>UI/UX</span>
+                </div>
+                <div class="chip">
+                    <span>case study</span>
+                </div>
+                <div class="chip">
+                    <span>mobile app</span>
+                </div>
+            </div>
         </div>
     </section>
     <div class="container">
         <section class="row">
             <div class="col">
-                <div class="card">
-                    <div class="thumbnail" style="background-color: #FAFAFA;">
-                        <img src="media/notable-thumb.png" width="325px" alt="notable-thumb">
-                    </div>
-                    <div class="text">
-                        <div class="card-title">
-                            <a href="pages/notable.html">notable.</a>
-                        </div>
-                        <p>Student note-taking app UI/UX design.</p>
-                        <div class="chips">
-                            <div class="chip">
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="chip">
-                                <span>case study</span>
-                            </div>
-                            <div class="chip">
-                                <span>mobile app</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h2 class="sticky-title">Preview</h2>
             </div>
             <div class="col">
-                <div class="card">
-                    <div class="thumbnail" style="background-color: #FDF0E6;">
-                        <img src="media/pagnet-thumb.png" alt="notable-thumb">
-                    </div>
-                    <div class="text">
-                        <div class="card-title">
-                            <a href="pages/pagnet.html">Pag.net</a>
-                        </div>
-                        <p>A platform for artists that fosters authentic interaction without conventional metrics like likes and views, focusing on genuine appreciation, collaboration, and community support.</p>
-                        <div class="chips">
-                            <div class="chip">
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="chip">
-                                <span>case study</span>
-                            </div>
-                            <div class="chip">
-                                <span>mobile app</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img src="../media/pagnet/pagnet.png" width="100%">
             </div>
         </section>
         <section class="row">
             <div class="col">
-                <div class="card">
-                    <div class="thumbnail" style="background-color: #D8CCF1;">
-                        <img src="media/image 58.png"  alt="laptop">
-                    </div>
-                    <div class="text">
-                        <div class="card-title">
-                            <a href="pages/cocoin.html">cocoin</a>
-                        </div>
-                        <p>A UI/UX dashboard design for sales management system.</p>
-                        <div class="chips">
-                            <div class="chip">
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="chip">
-                                <span>web design</span>
-                            </div>
-                            <div class="chip">
-                                <span>dashboard</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h2 class="sticky-title">Illustrations</h2>
             </div>
             <div class="col">
-                <div class="card">
-                    <div class="thumbnail" style="background-color: #FFF0F8;">
-                        <img src="media/keyboard_opt@2-1334x770 1.png"  alt="laptop">
-                    </div>
-                    <div class="text">
-                        <div class="card-title">
-                            <a href="https://github.com/frencheesecake/personal-website/tree/main" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            style="display: flex;">
-                                Portfolio 
-                                <svg style="margin-left: 10px;" width="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/>
-                                </svg>
-                            </a>
-                        </div>
-                        <p>A small project of my website using React, Tailwind for CSS, and Spline design for 3D Graphics.</p>
-                        <div class="chips">
-                            <div class="chip">
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="chip">
-                                <span>web design</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="row">
-            <div class="col">
-                <div class="card">
-                    <div class="thumbnail" style="background-color: #F8F8F8;">
-                        <img src="media/realtor-thumb.png"  alt="laptop">
-                    </div>
-                    <div class="text">
-                        <div class="card-title">
-                            <a href="pages/realtor.html">Realtor</a>
-                        </div>
-                        <p>Landing page design for real estate website.</p>
-                        <div class="chips">
-                            <div class="chip">
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="chip">
-                                <span>web design</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
+                <img src="../media/pagnet/pagnet-illus.png" width="100%">
             </div>
         </section>
     </div>
@@ -166,8 +78,7 @@
             <p>HMU for work, coffee chats, advice, or LMK about your favorite manga/anime :)</p>
             <ul class="list-links">
                 <li>
-                    <a href="www.linkedin.com/in/chezka-polidario" id="target" target="_blank" 
-                    rel="noopener noreferrer">LinkedIn</a>
+                    <a href="www.linkedin.com/in/chezka-polidario" id="target">LinkedIn</a>
                     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.9706 1.01479C18.9706 0.462504 18.5228 0.0147891 17.9706 0.0147891H8.97056C8.41828 0.0147891 7.97056 0.462504 7.97056 1.01479C7.97056 1.56707 8.41828 2.01479 8.97056 2.01479H16.9706V10.0148C16.9706 10.5671 17.4183 11.0148 17.9706 11.0148C18.5228 11.0148 18.9706 10.5671 18.9706 10.0148V1.01479ZM1.70711 18.6925L18.6777 1.7219L17.2635 0.307682L0.292893 17.2782L1.70711 18.6925Z" fill="#2D2D2D"/>
                     </svg>
@@ -200,8 +111,9 @@
 
 
 
+
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.36/dist/lenis.min.js"></script> 
 
-    <script src="script/main.js"></script>
+    <script src="../script/main.js"></script>
 </body>
 </html>
